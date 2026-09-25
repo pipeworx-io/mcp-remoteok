@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-remoteok",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RemoteOK MCP — remote-work job board (tech-heavy), keyless.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-remoteok": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "remoteok"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-remoteok"
+    "url": "git+https://github.com/pipeworx-io/mcp-remoteok.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-85ba30e35593207c14b9984076b0b3bf352dd8d04bcfa74955ae44bc27003c32",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
