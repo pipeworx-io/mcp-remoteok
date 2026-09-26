@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-remoteok",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RemoteOK MCP — remote-work job board (tech-heavy), keyless.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-85ba30e35593207c14b9984076b0b3bf352dd8d04bcfa74955ae44bc27003c32",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-32a39d244e2210dfb09c441abfb61d4c98715c9f3d59a4edb12eda55c5f9087c",
+    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
   }
 }
